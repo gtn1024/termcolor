@@ -1,0 +1,22 @@
+# Cangjie
+.cache/
+target/
+cov_output/
+reports/
+*.macrocall
+*.gcda
+*.gcno
+
+# Editor
+.vscode/
+.idea/
+.arts/
+
+# Misc
+tmp*
+.DS_Store
+
+# libzmq build artifacts
+vendor/build/
+
+build-script-cache/
