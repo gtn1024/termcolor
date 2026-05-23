@@ -100,7 +100,10 @@ public class Colors {
     }
 }
 
-func identity(_open: String, _close: String, _replace: String): (String) -> String {
+func identity(open: String, close: String, replace: String): (String) -> String {
+    _ = open
+    _ = close
+    _ = replace
     { s: String => s }
 }
 
