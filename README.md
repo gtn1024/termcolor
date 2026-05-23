@@ -4,6 +4,31 @@ The tiniest terminal output formatting library with ANSI colors for Cangjie.
 
 Inspired by [picocolors](https://github.com/alexeyraspopov/picocolors).
 
+## Features
+
+- Zero dependencies
+- Nested color composition with automatic close-sequence replacement
+- Disable colors via `createColors(false)`
+- Full coverage of standard ANSI formatting, foreground, background, and bright variants
+
+## Installation
+
+Add the dependency in `cjpm.toml`:
+
+Central registry:
+
+```toml
+[dependencies]
+  termcolor = "1.0.0"
+```
+
+Git:
+
+```toml
+[dependencies]
+  termcolor = { git = "https://github.com/gtn1024/termcolor" }
+```
+
 ## Usage
 
 ```cangjie
@@ -36,6 +61,3 @@ All functions have the signature `(String) -> String` and can be composed via ne
 c.bold(c.red("bold and red"))
 ```
 
-## License
-
-MIT
