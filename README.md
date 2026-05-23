@@ -1,5 +1,7 @@
 # termcolor
 
+[中文](README_zh.md) | English
+
 The tiniest terminal output formatting library with ANSI colors for Cangjie.
 
 Inspired by [picocolors](https://github.com/alexeyraspopov/picocolors).

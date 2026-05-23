@@ -1,5 +1,7 @@
 # termcolor
 
+中文 | [English](README.md)
+
 适用于仓颉语言的轻量级终端 ANSI 颜色格式化库。
 
 灵感来源于 [picocolors](https://github.com/alexeyraspopov/picocolors)。
